@@ -22,12 +22,11 @@ dependencies:
   flutter_gallery_assets: 0.1.9+2
   mxflutter:
     git:
-      url: http://git.code.oa.com/MXFlutter/MXFlutter.git
-      ref: develop
+      url: http://github.com/tencent/mxflutter.git
   device_info: ^1.0.0
   mxflutter_pkg:
     git:
-      url: http://git.code.oa.com/MXFlutter/mxflutter-pkg.git
+      url: http://github.com/mxflutter/mxflutter_pkg.git
   
 dev_dependencies:
   flutter_test:
