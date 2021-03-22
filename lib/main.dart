@@ -169,19 +169,19 @@ class MXFlutterExampleHome extends StatelessWidget {
                               MXJSPageWidget(jsWidgetName: "example2")));
                 },
               ),
-              ListTile(
-                leading: Icon(Icons.book),
-                trailing: Icon(Icons.arrow_right),
-                title: Text('MXJSC 测试'),
-                subtitle: Text('调试编译器测试页面'),
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) =>
-                              MXJSPageWidget(jsWidgetName: "mx-jsc-demo")));
-                },
-              ),
+              // ListTile(
+              //   leading: Icon(Icons.book),
+              //   trailing: Icon(Icons.arrow_right),
+              //   title: Text('MXJSC 测试'),
+              //   subtitle: Text('调试编译器测试页面'),
+              //   onTap: () {
+              //     Navigator.push(
+              //         context,
+              //         MaterialPageRoute(
+              //             builder: (context) =>
+              //                 MXJSPageWidget(jsWidgetName: "mx-jsc-demo")));
+              //   },
+              // ),
               ListTile(
                 leading: Icon(
                   Icons.refresh,
